@@ -1,0 +1,45 @@
+function getBiodata(){
+return{
+	name: 'Nadia Maharani',
+	age: '23th years old'
+	address: 'J.Urip Sumoharjo Palembang',
+	is_married: false //Boolean,
+	list_school:[{
+		name: SDN 2 Sukarame of Bandar Lampung,
+		year_in: 2002,
+		year_out: 2008
+		},{
+		name: Junior High School 12 of Bandar Lampung,
+		year_in: 2008,
+		year_out: 2011
+		},{
+		name: Senior High School 12 of Bandar Lampung,
+		year_in: 2011,
+		year_out: 2014
+		},{
+		name: Major of UIN Raden Fatah Palembang,
+		year_in: 2015,
+		year_out: -
+		}] //Array of Object
+	skills: [{
+		name: Design Grafis,
+		level: advanced
+		},{
+		name: UI design,
+		level: beginner
+		}] //Array of object
+	interest_in_coding: true //Boolean
+	}
+}
+
+let biodata=getBiodata();
+
+let skills=biodata.skills;
+
+//untuk mengakses list_school
+let name=biodata.list_school.name;
+
+let {skills}=biodata;
+
+//print json
+console.log(JSON.stringify(skills));
