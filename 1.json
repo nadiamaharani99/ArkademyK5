@@ -1,21 +1,20 @@
 function getBiodata(){
 return{
 	name: 'Nadia Maharani',
-	age: '23th years old'
 	address: 'J.Urip Sumoharjo Palembang',
 	is_married: false //Boolean,
 	list_school:[{
 		name: SDN 2 Sukarame of Bandar Lampung,
-		year_in: 2002,
-		year_out: 2008
+		year_in: -,
+		year_out: -
 		},{
 		name: Junior High School 12 of Bandar Lampung,
-		year_in: 2008,
-		year_out: 2011
+		year_in: -,
+		year_out: -
 		},{
 		name: Senior High School 12 of Bandar Lampung,
-		year_in: 2011,
-		year_out: 2014
+		year_in: -,
+		year_out: -
 		},{
 		name: Major of UIN Raden Fatah Palembang,
 		year_in: 2015,
